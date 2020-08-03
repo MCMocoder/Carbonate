@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.mocoder.carbonate.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BrewingRecipeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

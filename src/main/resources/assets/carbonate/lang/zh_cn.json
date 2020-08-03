@@ -1,0 +1,21 @@
+{
+  "item.minecraft.potion.effect.awkward_drink": "粗制的汽水",
+  "item.minecraft.potion.effect.sugar_drink": "糖水",
+  "item.minecraft.potion.effect.cola": "可乐",
+  "item.minecraft.potion.effect.cherry_cola": "樱桃味可乐",
+  "item.minecraft.potion.effect.sprite": "雪碧",
+  "item.minecraft.potion.effect.mirinda": "美年达",
+  "item.minecraft.splash_potion.effect.awkward_drink": "可喷溅的粗制汽水",
+  "item.minecraft.splash_potion.effect.sugar_drink": "可喷溅的糖水",
+  "item.minecraft.splash_potion.effect.cola": "喷溅型瓶装可乐",
+  "item.minecraft.splash_potion.effect.cherry_cola": "喷溅型瓶装樱桃味可乐",
+  "item.minecraft.splash_potion.effect.sprite": "喷溅型瓶装雪碧",
+  "item.minecraft.splash_potion.effect.mirinda": "喷溅型瓶装美年达",
+  "item.minecraft.lingering_potion.effect.awkward_drink": "可滞留的粗制汽水",
+  "item.minecraft.lingering_potion.effect.sugar_drink": "可滞留的糖水",
+  "item.minecraft.lingering_potion.effect.cola": "撒掉的可乐",
+  "item.minecraft.lingering_potion.effect.cherry_cola": "撒掉的樱桃味可乐",
+  "item.minecraft.lingering_potion.effect.sprite": "撒掉的雪碧",
+  "item.minecraft.lingering_potion.effect.mirinda": "撒掉的美年达",
+  "item.carbon.carbon_dioxide_bottle": "二氧化碳气瓶"
+}
