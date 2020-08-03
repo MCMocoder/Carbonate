@@ -50,7 +50,7 @@ public class CarbonateMain implements ModInitializer {
 					new StatusEffectInstance[]{
 						new StatusEffectInstance(StatusEffects.REGENERATION,400,2),
 						new StatusEffectInstance(StatusEffects.ABSORPTION,1200),
-						new StatusEffectInstance(StatusEffects.LUCK,120),
+						new StatusEffectInstance(StatusEffects.LUCK,1200),
 						new StatusEffectInstance(StatusEffects.STRENGTH,12800)
 					}
 			)
