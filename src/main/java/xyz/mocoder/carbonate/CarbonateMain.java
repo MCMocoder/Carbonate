@@ -48,7 +48,7 @@ public class CarbonateMain implements ModInitializer {
 			new Identifier("carbonate","cherry_cola"),
 			new Potion(
 					new StatusEffectInstance[]{
-						new StatusEffectInstance(StatusEffects.REGENERATION,400,2),
+						new StatusEffectInstance(StatusEffects.REGENERATION,400,1),
 						new StatusEffectInstance(StatusEffects.ABSORPTION,1200),
 						new StatusEffectInstance(StatusEffects.LUCK,1200),
 						new StatusEffectInstance(StatusEffects.STRENGTH,12800)
