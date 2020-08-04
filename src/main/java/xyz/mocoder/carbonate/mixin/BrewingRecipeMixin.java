@@ -21,12 +21,16 @@ import static xyz.mocoder.carbonate.CarbonateMain.*;
 
 @Mixin(BrewingRecipeRegistry.class)
 public abstract class BrewingRecipeMixin {
+    private static final String registerPotionRecipeMapping="method_8074";
+    private static final String POTION_RECIPESMapping="field_8956";
+    private static final String recipeClassMapping="net.minecraft.class_1845$class_1846";
+
     private static Class brr=BrewingRecipeRegistry.class;
     private static Method addPotion;
 
     static {
         try {
-            addPotion = brr.getDeclaredMethod("registerPotionRecipe", Potion.class, Item.class,Potion.class);
+            addPotion = brr.getDeclaredMethod(registerPotionRecipeMapping, Potion.class, Item.class,Potion.class);
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
         }
@@ -36,7 +40,7 @@ public abstract class BrewingRecipeMixin {
 
     static {
         try {
-            pr = brr.getDeclaredField("POTION_RECIPES");
+            pr = brr.getDeclaredField(POTION_RECIPESMapping);
             pr.setAccessible(true);
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
@@ -47,7 +51,7 @@ public abstract class BrewingRecipeMixin {
 
     static {
         try {
-            recp = Class.forName("net.minecraft.recipe.BrewingRecipeRegistry$Recipe");
+            recp = Class.forName(recipeClassMapping);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
