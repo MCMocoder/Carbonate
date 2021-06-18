@@ -34,49 +34,37 @@ public class CarbonateMain implements ModInitializer {
 			Registry.POTION,
 			new Identifier("carbonate","cola"),
 			new Potion(
-					new StatusEffectInstance[]{
-							new StatusEffectInstance(StatusEffects.MINING_FATIGUE,12800),
-							new StatusEffectInstance(StatusEffects.SLOWNESS,12800),
-							new StatusEffectInstance(StatusEffects.REGENERATION,400),
-							new StatusEffectInstance(StatusEffects.STRENGTH,12800)
-					}
-			)
+					new StatusEffectInstance(StatusEffects.MINING_FATIGUE,12800),
+					new StatusEffectInstance(StatusEffects.SLOWNESS,12800),
+					new StatusEffectInstance(StatusEffects.REGENERATION,400),
+					new StatusEffectInstance(StatusEffects.STRENGTH,12800))
 	);
 
 	public static final Potion CHERRY_COLA = Registry.register(
 			Registry.POTION,
 			new Identifier("carbonate","cherry_cola"),
 			new Potion(
-					new StatusEffectInstance[]{
-						new StatusEffectInstance(StatusEffects.REGENERATION,400,1),
-						new StatusEffectInstance(StatusEffects.ABSORPTION,1200),
-						new StatusEffectInstance(StatusEffects.LUCK,1200),
-						new StatusEffectInstance(StatusEffects.STRENGTH,12800)
-					}
-			)
+					new StatusEffectInstance(StatusEffects.REGENERATION,400,1),
+					new StatusEffectInstance(StatusEffects.ABSORPTION,1200),
+					new StatusEffectInstance(StatusEffects.LUCK,1200),
+					new StatusEffectInstance(StatusEffects.STRENGTH,12800))
 	);
 
 	public static final Potion SPRITE = Registry.register(
 			Registry.POTION,
 			new Identifier("carbonate","sprite"),
 			new Potion(
-					new StatusEffectInstance[]{
-							new StatusEffectInstance(StatusEffects.SLOWNESS,12800),
-							new StatusEffectInstance(StatusEffects.REGENERATION,400),
-							new StatusEffectInstance(StatusEffects.HASTE,12800)
-					}
-			)
+					new StatusEffectInstance(StatusEffects.SLOWNESS,12800),
+					new StatusEffectInstance(StatusEffects.REGENERATION,400),
+					new StatusEffectInstance(StatusEffects.HASTE,12800))
 	);
 
 	public static final Potion MIRINDA = Registry.register(
 			Registry.POTION,
 			new Identifier("carbonate","mirinda"),
 			new Potion(
-					new StatusEffectInstance[]{
-							new StatusEffectInstance(StatusEffects.SLOWNESS,12800),
-							new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE,12800)
-					}
-			)
+					new StatusEffectInstance(StatusEffects.SLOWNESS,12800),
+					new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE,12800))
 	);
 
 

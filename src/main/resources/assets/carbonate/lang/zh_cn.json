@@ -13,9 +13,9 @@
   "item.minecraft.splash_potion.effect.mirinda": "喷溅型瓶装美年达",
   "item.minecraft.lingering_potion.effect.awkward_drink": "可滞留的粗制汽水",
   "item.minecraft.lingering_potion.effect.sugar_drink": "可滞留的糖水",
-  "item.minecraft.lingering_potion.effect.cola": "撒掉的可乐",
-  "item.minecraft.lingering_potion.effect.cherry_cola": "撒掉的樱桃味可乐",
-  "item.minecraft.lingering_potion.effect.sprite": "撒掉的雪碧",
-  "item.minecraft.lingering_potion.effect.mirinda": "撒掉的美年达",
+  "item.minecraft.lingering_potion.effect.cola": "可滞留可乐",
+  "item.minecraft.lingering_potion.effect.cherry_cola": "可滞留樱桃味可乐",
+  "item.minecraft.lingering_potion.effect.sprite": "可滞留雪碧",
+  "item.minecraft.lingering_potion.effect.mirinda": "可滞留美年达",
   "item.carbonate.carbon_dioxide_bottle": "二氧化碳气瓶"
 }
